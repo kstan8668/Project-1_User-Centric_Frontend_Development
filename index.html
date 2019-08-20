@@ -3,6 +3,7 @@
   <head>
 
       <style>
+        
           * {
             box-sizing: border-box;
           }
@@ -53,10 +54,14 @@
             font-size: 18px;
           }
           
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 00px) {
             .columns {
               width: 100%;
             }
+          }
+
+          .nav-style {
+            font-size: 2rem;
           }
           </style>
 
@@ -72,12 +77,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Fredrick Goh Guitar Studio</title>
+  <title>Guitar Studio</title>
   </head>
 
   <body>
+
+    
      
-    <header>
+    <header class="sticky-top">
 <!---------------------------------------- NarbarHeader ----------------------------------------->
 <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
@@ -105,15 +112,34 @@
     <div class="navbar navbar-dark bg-dark box-shadow">
     <div class="container d-flex justify-content-between">
     <a href="#" class="navbar-brand d-flex align-items-center">
-    <h1 class="text-white"><strong>Fredrick Goh Guitar Studio</strong></h1>   
-    <!-- <strong>Fredrick Goh Guitar Studio</strong>     -->
+    <h1 class="text-white"><strong>Guitar Studio</strong>  </h1>   
     </a>
+    <nav class="navbar">
+
+    </nav>
+    <ul class="navbar-nav d-inline nav-style">
+      <li class="nav-item px-3">
+        <a href="#testimonial" class="nav-link">Testimonials</a>
+      </li>
+      <li class="nav-item px-3">
+          <a href="#gallery" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item px-3">
+            <a href="#ourrate" class="nav-link">Our Rate</a>
+          </li>
+    </ul>
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span><p>About Us</p>
+
+  
     </button>
     </div>
+
     </div>
     </header>
+
+    
 <!---------------------------------------- Scection: Jumbotron ----------------------------------------->  
 <main role="main">        
 <div class="jumbotron text-center" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
@@ -125,7 +151,7 @@
     </div>
     </section>
 <!---------------------------------------- Scection: Testimonials -----------------------------------------> 
-<div class="album py-5 bg-light">
+<div id="testimonial" class="album py-5 bg-light">
 <div class="container">
         <h2><strong> Testimonials</strong></h2>
         <h4>Our happy customers feedback</h4>
@@ -135,7 +161,7 @@
     <img src="img/1.jpg" alt= "Guitart1">
 <div class="card-body">
   <h3>John Max</h3>
-    <p class="card-text">Fredrick is a wonderful teacher and with his teaching, within 3 months, I can play and enjoy the great music. </p>
+    <p class="card-text">Guitar Studio is a great place to learn guitar within 3 months, I can play and enjoy the great music. </p>
 <div class="d-flex justify-content-between align-items-center">
 <div class="btn-group">
      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -151,7 +177,7 @@
      <img src="img/2.jpg" alt= "Guitart2">
 <div class="card-body">
     <h3> John Sally </h3>
-     <p class="card-text">I enjoy guitar from Fredrick Goh Guitar Studio lesson and I passed my grade 8 Guitar exam. Fredrick got me prepared well, no stress for it</p>
+     <p class="card-text">I enjoy guitar from  Guitar Studio and I passed my grade 8 Guitar exam They got me prepared well, no stress for it</p>
 <div class="d-flex justify-content-between align-items-center">
 <div class="btn-group">
      <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -167,7 +193,7 @@
      <img src="img/3.jpg" alt= "Guitart3">
 <div class="card-body">
     <h3> Mary & Alvin </h3>
-    <p class="card-text">Hey! We went to Fredrick with no experience and now both of us palyed well in School and perofrm in many churches. Thanks for Fredrick</p>
+    <p class="card-text">Hey! We went to Guitar Studio with no experience and now both of us palyed well in School and perofrm in many churches. </p>
 <div class="d-flex justify-content-between align-items-center">
 <div class="btn-group">
     <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
@@ -179,8 +205,8 @@
     </div>
     </div>
     </main>
-
-    <div >
+<!---------------------------------------- Scection: Gallery -----------------------------------------> 
+    <div id="gallery" >
             <h1 align="center"><strong>Gallery</strong></h1>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
@@ -231,7 +257,8 @@
               </a>
             </div>
           </div>
-
+<!---------------------------------------- Scection: Our Rate -----------------------------------------> 
+<div id="ourrate" >
 
           <h1 style="text-align:center"><strong> Our Rate</strong></h1>
 <p style="text-align:center"><h3><center>Upon Professional level, you will reward a Proffssional Guitar worth $500</center></h3></p>
@@ -277,7 +304,7 @@
     <p class="float-right">
     <!-- <a href="#">Back to top</a> -->
     </p>
-    <h2 align="center">@ Fredrick Goh Guitar Studio Copyright 2019</h2>
+    <h2 align="center">@ Guitar Studio Copyright 2019</h2>
     </div>
     </footer>
 
